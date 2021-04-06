@@ -9,7 +9,7 @@ const val SIZE: Int = 15
 
 fun main(args: Array<String>) {
     // Создаю и заполняю 2 массива случаными числами
-    val a1 = IntArray(SIZE) { Random.nextInt(SIZE)}.toList()
+    val a1 = IntArray(SIZE) { Random.nextInt(2*SIZE)}.toList()
     val a2 = IntArray(SIZE) { Random.nextInt(SIZE)}.toList()
 
     // Вывод массивов
@@ -21,9 +21,9 @@ fun main(args: Array<String>) {
         .supplyAsync { a1 }
         .thenApplyAsync { first: List<Int>? ->
             // Создаю промежуточную переменную, присваиваю ей
-            // массив содержащий элементы, меньше максимального значения массива
+            // массив содержащий элементы, вдвое меньше максимального значения массива
             val a: List<Int>? = first
-                ?.filter { it < first.maxOrNull()!! }
+                ?.filter { it < first.maxOrNull()!!/2 }
             // Сортируем
             sort(a)
             a
