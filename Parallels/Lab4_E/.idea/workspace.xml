@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7734dcc-a2db-4f2f-8762-a9248ec84e08" name="Default Changelist" comment="lab4_e" />
+    <list default="true" id="a7734dcc-a2db-4f2f-8762-a9248ec84e08" name="Default Changelist" comment="lab4_e">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,19 +30,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Blackjack" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Lab4_E" />
       <option name="VM_PARAMETERS" />
@@ -69,6 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617726721907</updated>
       <workItem from="1617726723330" duration="1230000" />
+      <workItem from="1617734165092" duration="1096000" />
+      <workItem from="1618419538157" duration="1158000" />
     </task>
     <task id="LOCAL-00001" summary="lab4_e">
       <created>1617729415864</created>
@@ -93,6 +87,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab4_e" />
